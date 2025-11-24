@@ -5,33 +5,66 @@
     /* background-color: #548687; */
     /* background-color: #473335; */
 body{
-    display: flexbox;
-    background-color: #FDFBD4;
+    /* display: flexbox; */
+    /* background-color: #FDFBD4; */
     font-family:"Roboto", sans-serif;
-    color: #444;
+    color: #fdfbd4;
     height: 100vh;
 }
-.nav_links{
+
+
+.home_brush-icon{
+  
+   box-shadow: #FDFBD4 ((0, 20%, 30%, 0.8));
+   height: 10vh;
+   width: 5vh;
+}
+.nav_links {
     font-family: "Roboto", sans-serif;
     font-size: 4vh; /* not sure if i should change this.*/
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    margin:0 15px;
+    
     background-color: #473335;
     width: 100%;
     text-align: center;
-
+    display: flex;
+    position: sticky;
 }
-ul{
-    list-style:none;
+.nav_links button {
+    background-color: #473335;
+    color:#FDFBD4;
+    padding: 10vh 15vh;/* not sure */
+    border: none;
+    cursor: pointer;
 }
-ul a{
-
+.nav_links a {
+    color: #FDFBD4;
     text-decoration: none;
     color:#FDFBD4;
     text-shadow: #000000;
 }
+.nav_links .link_content {
+    display: none;
+    background-color:#473335 ;
+    box-shadow: 3px 3px 6px #473335 (0, 0%, 0%, 0.8);
+}
+.nav_links:hover .link_content {
+    display: block;
+    z-index: 2;
+}
+.nav_links:hover button {
+    background-color: #2f2123 (0, 0%, 95%);
+}
+.link_content {
+    display:flex;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 10vh;
+    width: 50vh; /*maybe can work i just need to adjust the text in butto*/
+}
+
 
 .hero-banner_title{
     color: #FDFBD4;
@@ -50,6 +83,21 @@ ul a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.socials{
+    display: block;
+    background-color: rgb(243, 244, 246);
+    height: 30vh;
+}
+.footer_logo {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    
+}
+.footer_logo a{
+    display: flex;
+    justify-content: center;
+} 
 
 
                 /*Responsive Design*/

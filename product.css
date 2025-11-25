@@ -1,32 +1,85 @@
 body{
-    background-color: #B0413E
+    background-color: #B0413E;
+    font-family:"Roboto", sans-serif;
+    color: #fdfbd4;
+    height: 100vh;
 }
-.nav_links{
-    font-family: "Roboto", sans-serif;
-    font-size: 4vh; /* not sure if i should change this.*/
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    margin:0 15px;
-    background-color: #473335;
-    width: 100%;
-    text-align: center;
+
+.nav_links {
     display: flex;
-    
-
+    align-items: center;
+    justify-content: space-between;
+    background-color: #473335;
+    padding: 1rem 2rem;
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 10;
 }
-ul{
-    list-style:none;
+.nav_links button {
+    background-color: #473335;
+    color:#FDFBD4;
+    border: none;
+    cursor: pointer;
 }
-ul a{
-
+.nav_links a {
+    color: #FDFBD4;
     text-decoration: none;
     color:#FDFBD4;
     text-shadow: #000000;
 }
+.home_brush-icon {
+    height: 15vh;
+    width: 10vh;
+    width: auto;
+    cursor: pointer;
+}
+.global-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.link_content {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.link_content li a {
+    text-decoration: none;
+    color: #FDFBD4;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.link_content li a:hover {
+    opacity: 0.7;
+}
+.nav_links .link_content {
+    display: none;
+    background-color:#473335 ;
+    box-shadow: 3px 3px 6px #473335 (0, 0%, 0%, 0.8);
+} 
+.nav_links:hover .link_content {
+    display: inline-flex;
+    z-index: 2;
+}
+*.link_content li {
+    float:left;
+    width:200px;
+    opacity: .7;
+    text-align: center;
+}
+ *.link_content li a {
+    text-decoration: none;
+    color: #FDFBD4;
+    display: block;
+}
+ *.link_content li a:hover {
+    background-color: #583e4165; 
+}
+
 
 .hero-banner_title{
-    color: #FDFBD4;
+    color: #FDFBD4;       
     border-style: groove;
     border-color: #444;
 }

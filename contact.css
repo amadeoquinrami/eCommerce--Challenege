@@ -211,3 +211,77 @@ form label {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+/*  responsivness  */       /*Mobile*/
+@media screen and (min-width: 649px) and (max-width: 800px) {
+    body {background-image: url(images/main-hero.jpeg);
+    background-repeat: repeat(100% 100%);
+    background-size: 5000px 4000px ;
+    background-position: center; 
+    background-position: absolute; 
+     height: 10vh;
+    /* background-position: sticky; */
+  }
+ .nav_links {
+     contain: content;
+     height: fit-content;
+     width: fit-content;
+    }
+.global-nav {
+    width: 900px;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 95%;
+    background-color:#B0413E;
+    height: 15vh;
+    max-height: 778px;
+}
+.footer_logos {
+    justify-items: end;
+    height: 5rem;
+}
+.foot-icon {
+     margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10%;
+    justify-items: end;
+}
+}
+
+
+
+                   /* Tablet */
+@media screen and (min-width: 641px) and (max-width:1024px){
+body {
+    max-height: 1004px;
+}
+.global-nav {
+    width: 900px;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 95%;
+    background-color:#B0413E;
+    height:5vh;
+    max-height: 578px;
+}
+.footer_logos {
+    justify-items: end;
+    height: 2rem;
+}
+.foot-icon {
+     margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10%;
+    justify-items: end;
+}
+}
+
+
+
+                    /* Desktop */
+@media screen and (min-width: 1025px){
+
+}

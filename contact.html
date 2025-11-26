@@ -34,28 +34,43 @@
             <img class="home_brush-icon" src="images/hairbrush.jpeg" alt="hairbrush menu"></a>
     </nav>
   </header>
+    <h1 class="contact-title">Contact us!</h1>
     <main>
         <div class="account-content">
-        <form>
+        <form id="Contact-form">
             <p class="row">
-                <label for="Username">UserName</label>
-                <input type="text" class="Input-text" id="username" >
+                <label for="name">Name</label>
+                <input type="text" class="Input-text" id="name" placeholder="First Name "> 
+                <span class="err-message" id="err-name"></span>
+            </p>
+            <p class="row1">
+                <label for="email" placeholder="Email">Email</label>
+                <input type="text" class="Input-email" id="email" placeholder="Email@.com">
+                <span class="err-message" id="err-email"></span>
             </p>
             <p class="row_2">
-                <label for="password">Password</label>
-                <input type="password" class="Input-password" id="password">
-                <span class="password_input">
-                    <button type="button" class="show_password">preview password</button>
-                </span>
+                <label for="Comment">Comments</label> 
+                <input type="text" class="Input-comment" id="Comment" placeholder="Share your thoughts"> 
+                <span class="err-message" id="err-comment"></span>
             </p>
             <p class="row_3">
-                <label class="rememberme" type="checkbox" name="login"></label>
-                <button type="submit" value="log in">Log in</button>
-
+                <button type="submit" value="submit">Submit</button>
             </p>
 
         </form>
         </div>
     </main>
+    <footer class="socials">
+    by ©amadeo Ramirez
+    <div class="footer_logos">
+        <h3> Connect below</h3>
+        <a href="https://www.linkedin.com/in/amadeoramirez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+            <img class="foot-icon" src="images/Linkedin.jpeg" alt="linkedin logo"></a>
+        <a href="https://www.facebook.com/share/14PrzCC6TB4/?mibextid=wwXIfr." target="_blank">    
+            <img class="foot-icon" id="faceboookimg" src="images/FB.jpeg" alt="Facebook logo"></a>
+    </div>
+
+</footer>
+        <script src="contact.js"></script>
 </body>
 </html>

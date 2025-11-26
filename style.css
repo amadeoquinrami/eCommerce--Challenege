@@ -138,9 +138,22 @@ h1{
     background-size: cover;
 }
 .socials{
-    background-color: rgb(243, 244, 246);
-    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+
+    background-color:#B0413E;
+    height: 15vh;
 }
+.footer_logos {
+    background-color: #548687;
+}
+.foot-icon {
+    height: 7vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 
 

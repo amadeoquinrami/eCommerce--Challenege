@@ -1,8 +1,12 @@
 body{
     background-color: #B0413E;
+    background-image: url(images/main-hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     font-family:"Roboto", sans-serif;
     color: #fdfbd4;
-    height: 100vh;
+    /* height: 100vh; */
 }
 /*  logo */
 .logo {
@@ -115,6 +119,16 @@ body{
     border-style: groove;
     border-color: #444;
 }
+
+h1 {
+    display: flex;
+    border: 2rem solid #473335;
+    background-color: #548687ed;
+    font-family:"Roboto", sans-serif;
+    font-size: 4rem;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
@@ -132,21 +146,43 @@ body{
     font-family:"Roboto", sans-serif;
 
 }
-.product-card h1 {
-    font-size: 8rem;
+/* Beginning of targettting the inner description of contact card */
+.product_name {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    color:#FDFBD4;
+    border: .5rem solid #548687;
+    background-color: #B0413E;
 }
+.product_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+/* end of targeting the inner description */
 
 .product-card img {
     width: 100%;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
 }
-h1 {
+/*  footer */
+.socials{
     display: flex;
-    font-family:"Roboto", sans-serif;
-    font-size: 4rem;
-    justify-content: center;
-    /* align-items: center; */
-
+    justify-content: start;
+    margin-top: 20vh;
+    background-color:#B0413E;
+    height: 12vh;
+}
+.footer_logos {
+    background-color: #548687;
+    justify-items: end;
+    width: 100%;
+}
+.foot-icon {
+    height: 7vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-items: end;
 }

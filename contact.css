@@ -1,5 +1,10 @@
 body {
     background-color: #548687;
+    background-image: url(images/main-hero.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
      font-family:"Roboto", sans-serif;
     color: #fdfbd4;
     height: 100vh;
@@ -112,12 +117,23 @@ body {
 }
 /*  contact layout */
 .account-content {
-    width: 380px;
+    display: flex;
+    justify-content: center;
+    width: 45rem;
     margin: 4rem auto;
-    padding: 2rem;
+    /* padding: 2rem; */
     background-color: #FDFBD4;
     border-radius: 12px;
     box-shadow: 0px, 4px, 10px, rgba(0,0,0,0.4);
+}
+h1 {
+    display: flex;
+    border: 2rem solid #548687e4;
+    background-color:#4733359d ;
+    font-family:"Roboto", sans-serif;
+    font-size: 4rem;
+    justify-content: center;
+    margin-bottom: 7rem;
 }
 .row,
 .row_2,
@@ -127,15 +143,17 @@ body {
 /* Now doing the labels */
 form label {
     display: block;
-    font-size: 1.1rem;
+    font-family:'Roboto', sans-serif; 
+    font-size: 1.3rem;
     margin-bottom: 0.4rem;
     color: #548687;
 }
 /* the inputs */
 .Input-text,
-.Input-password {
+.Input-email,
+.Input-comment {
     width: 100%;
-    padding: 10px 12px;
+    padding: 15px 8px;
     font-size: 1rem;
     border: 2px solid #473335;
     border-radius: 8px;
@@ -143,40 +161,53 @@ form label {
     color: #473335;
     outline: none;
 }
-/*  focusing inputs */
-.Input-text:focus,
-.Input-password:focus {
-    border-color: #444;
-    box-shadow: 0 0 6px rgba(253,251,212,0.6);
-}
-/* password button */
-.show_password {
-    margin-top: 8px;
-    background-color: #548687;
-    color: #FDFBD4;
-    border:2px solid #473335;
-    padding: 6px 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.9rem;
-}
-.show_password:hover {
-    background-color: #54868779;
-}
 .row_3 button[type="submit"] {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     font-size: 1.1rem;
     background-color: #548687;
     border: 2px solid #473335;
     color: #FDFBD4;
     border-radius: 10px;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     transition: 0.2s ease;
 }
 .row_3 button[type="submit"]:hover {
     background-color: #54868729;
-    transform: translateY(-2px);    
+    /* transform: translateY(-2px);     */
 }
+/*  work on the Input BOX */
+.Input-text,
+.Input-email,
+.Input-comment {
+    color: #FDFBD4;
+    width: 400px;
+    padding-left: 10%;
+    margin-right: 10%;
+}
+/* error or err messages */
+.err-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    display: block;
+    height: 1rem;  
+}
+/* footer */
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30vh;
 
+    background-color:#B0413E;
+    height: 15vh;
+}
+.footer_logos {
+    background-color: #548687;
+}
+.foot-icon {
+    height: 7vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

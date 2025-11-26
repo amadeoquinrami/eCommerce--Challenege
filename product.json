@@ -1,8 +1,76 @@
-// have an array or object with oother values or
-// creating an object :
-// {
-    // "key": "value", 
-    // "name": "Amadeo",
-    // "isProgrammer": true,
-    // "hobbies": ["running", "playing volleyball"],
-// }
+
+[ 
+    {
+    "name":"Red Silk Scarf",
+    "price":"$140.00",
+    "description":"20x67 in measurment. 100% Handmade in Italy. Printed on 100% silk twill.",
+    "photo":"images/redsilkitaliinascarf.jpeg"
+    },
+    {
+    "name":"Mexican Silk Embroidered Scarf - Denim",
+    "price":"$79.00",
+    "description":"Experience the vibrant colors and rich heritage of Mexico with our Mexican-embroidered scarf. Handmade by artisan women in Veracruz, this bandana is a symbol of tradition and culture. It is hand embroidered in silk, adding an extra layer of luxury and craftsmanship.",
+    "photo":"images/mexican-silk-embroidered-scarf-denim-mexican-silk-embroidered.jpeg"
+    },
+    {
+   "name":"Mulberrysilk Pillowcase",
+   "price":"$51.75",
+   "description":"Sleeping on our luxurious Mulberry Silk protects skin and hair from friction damage.",
+   "photo":"images/mulbery-silk-pillowcase.jpeg"
+    },
+    {
+    "name":"Kansa Comb",
+    "price":"$50.00",
+    "description":"The tool is made out of Kansa, believed to be the “healing metal” in ancient Indian tradition, and Ayurveda - the legendary medicinal practice in India. Kansa is better known as “bronze” in the modern world - an alloy (mixture) of Copper + Tin.",
+    "photo":"images/ayved-comb.jpeg"
+    },
+    {
+     "name":"Le Jardin Switzerland",
+     "price":"$218.00",
+     "description":"Our 15 times best-selling serum, crafted in Switzerland from 95% natural botanicals that mirror the scalp's biology to encourage thicker, longer hair in as little as 3 months.",
+     "photo":"images/LeJardinhairoil.jpeg"
+    },
+    {
+    "name":"Manus Hair Pin",
+    "price":"$265.00",
+    "description":"A crown of sculptural petals sits atop the Manus Hairpin, creating a modern floral statement. The hidden pin offers seamless hold, while the design pairs beautifully with the Manus Earrings for a cohesive, artistic look.",
+    "photo":"images/manushairpin.jpeg"
+    },
+    {
+     "name":"Circle silver hair clip",
+     "price":"$65.00",
+     "description":" 2 1/4 diameter, Brass plated in 14k Gold or Polished Pewter. Made in Los Angeles, Calif. ",
+     "photo":"images/circlehairclip.jpeg"
+    },
+    {
+    "name":"WaterProof Satin lined showercap",
+    "price":"$36.00",
+    "description":"Smooths, protects, and reduces friction. It preserves your style and protects your edges, so you can step out of the shower with hair that looks just as good as when you stepped in.",
+    "photo":"images/satin-showercap.jpeg"
+    },
+  {
+    "name":"Silk Hair Scrunchie",
+    "price":"$10.00",
+    "description":"Pink, Hypoallergenic ",
+    "photo":"images/silkhairscrucnhy.jpeg"
+    },
+    {
+    "name":"Arrowroot Dryshampoo",
+    "price":"$23.00",
+    "description":"A non-aerosol, talc & alcohol free dry shampoo, packaged into an innovative pouf for precise application to tackle greasy roots, whether at home or on-the-go.",
+    "photo":"images/dryshampooarrowroot.jpeg"
+    },
+    {
+    "name":"Silk lined Beanie",
+    "price":"$65.00",
+    "description":"Protect your hair this winter with a silk lined knit beanie with our handstitched mulberry silk lining beanie.",
+    "photo":"images/silk-beanie.jpeg"
+    },
+    {
+     "name":"Mason Pearson Brush",
+     "price":"$260.00",
+     "description":"Rubber cushion: Dry Natural Rubber (DNR).Handle and base: Cellulose acetate plastic. Bristles: Boar bristle tufts. As a natural product, boar bristles may vary between hairbrushes, but we take every step to ensure the quality and consistency of our brushes.",
+     "photo":"images/Mason_Pearson_Large-brush.jpeg"
+    }
+]
+

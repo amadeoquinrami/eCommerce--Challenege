@@ -4,6 +4,38 @@ body{
     color: #fdfbd4;
     height: 100vh;
 }
+/*  logo */
+.logo {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1;
+    }
+
+    .arrow-up,
+    .arrow-down {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-line {
+        font-size: 32px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .text-line span {
+        font-size: 32px;
+    }
+
+
+/* end of logo */
 
 .nav_links {
     display: flex;
@@ -82,4 +114,39 @@ body{
     color: #FDFBD4;       
     border-style: groove;
     border-color: #444;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    gap:5rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background: #FDFBD4;
+    border: 2rem solid #548687;
+    border-radius: 12px;
+    padding: 1rem;
+    color: #473335;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+
+}
+.product-card h1 {
+    font-size: 8rem;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+h1 {
+    display: flex;
+    font-family:"Roboto", sans-serif;
+    font-size: 4rem;
+    justify-content: center;
+    /* align-items: center; */
+
 }

@@ -135,6 +135,9 @@ h1 {
     gap:5rem;
     padding: 2rem;
 }
+.product-card:hover{
+    border: #fdf890 ;
+}
 
 .product-card {
     background: #FDFBD4;
@@ -157,6 +160,9 @@ h1 {
 .product_price {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
+}
+.product_description {
+    /* font-size: 4rem; */
 }
 
 /* end of targeting the inner description */
@@ -185,4 +191,100 @@ h1 {
     margin-left: 1rem;
     margin-right: 1rem;
     justify-items: end;
+}
+/* responsive */
+
+
+
+/* mobile */
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  body {background-image: url(images/main-hero.jpeg);
+    background-repeat: repeat(100% 100%);
+    background-size: 5000px 4000px ;
+    background-position: center; 
+    background-position: absolute; 
+    /* background-position: sticky; */
+  }
+ .nav_links {
+     contain: content;
+     height: fit-content;
+     width: fit-content;
+    position: relative;
+        z-index: 2000;
+        
+    }
+.global-nav {
+    width: 900px;
+}
+h1 {
+  margin-left: 400px;
+  padding: 15% 60%;
+    }
+.product-grid {
+    display: grid;
+    /* justify-content: end; */
+    /* align-items: center; */
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap:5rem; 
+    padding: 2rem;
+}
+.product-card {
+    width: fit-content;
+    height: fit-content;
+    gap:5rem;
+    padding: 2rem;
+    margin-left: auto;
+}
+.product_description {
+    font-size: 1rem;
+    letter-spacing: .5px;
+}
+.socials{
+    display: flex;
+    margin-top: 20vh;
+    margin-bottom: 10rem;
+    height: 12vh;
+    width: 100vh;
+}
+.footer_logos {
+    justify-items: end;
+    height: 10rem;
+    /* width: 100%; */
+}
+.foot-icon {
+     margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10%;
+    justify-items: end;
+}
+
+}
+
+ /* tablet  */
+@media screen and (min-width: 641px) and (max-width:1024px) {
+    .nav_links {
+     contain: content;
+     height: fit-content;
+     width: fit-content;
+    }
+.global-nav {
+    width: 1080px;
+}
+.product-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap:5rem;
+    padding: 2rem;
+}
+.product_description {
+    /* font-size: 2rem; */
+    letter-spacing: .5px;
+}
+
+    }
+
+/*  desktop */
+@media screen and (min-width: 1025px) {
+
 }
